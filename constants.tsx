@@ -90,120 +90,120 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { name: 'LinkedIn', icon: <LinkedinIcon />, url: 'https://linkedin.com/in/abishekhaththakage' },
-  { name: 'GitHub', icon: <GithubIcon />, url: 'https://github.com/AbishekHaththakage' },
-  { name: 'Facebook', icon: <FacebookIcon />, url: 'https://facebook.com' },
-  { name: 'Instagram', icon: <InstagramIcon />, url: 'https://instagram.com' },
-  { name: 'Twitter', icon: <TwitterIcon />, url: 'https://twitter.com' },
+  { name: 'LinkedIn', icon: <LinkedinIcon />, url: 'https://www.linkedin.com/in/gehan-liyanage' },
+  { name: 'GitHub', icon: <GithubIcon />, url: 'https://github.com/GehanLiyanage2002' },
+  { name: 'Facebook', icon: <FacebookIcon />, url: 'https://www.facebook.com/luwisnickman' },
+  { name: 'Instagram', icon: <InstagramIcon />, url: 'https://www.instagram.com/gehan_liyanage' },
+//   { name: 'Twitter', icon: <TwitterIcon />, url: 'https://twitter.com' },
 ];
 
 export const CONTACT_PAGE_LINKS: SocialLink[] = [
-    { name: 'Email', icon: <MailIcon />, url: 'mailto:aloka.abishek9@gmail.com' },
-    { name: 'LinkedIn', icon: <LinkedinIcon />, url: 'https://linkedin.com/in/abishekhaththakage' },
-    { name: 'GitHub', icon: <GithubIcon />, url: 'https://github.com/AbishekHaththakage' },
-    { name: 'Facebook', icon: <FacebookIcon />, url: 'https://facebook.com' },
-    { name: 'Instagram', icon: <InstagramIcon />, url: 'https://instagram.com' },
-    { name: 'YouTube', icon: <YoutubeIcon />, url: 'https://youtube.com' },
+    { name: 'Email', icon: <MailIcon />, url: 'mailto:gahenliyanage@gmail.com' },
+    { name: 'LinkedIn', icon: <LinkedinIcon />, url: 'https://www.linkedin.com/in/gehan-liyanage' },
+    { name: 'GitHub', icon: <GithubIcon />, url: 'https://github.com/GehanLiyanage2002' },
+    { name: 'Facebook', icon: <FacebookIcon />, url: 'https://www.facebook.com/luwisnickman' },
+    { name: 'Instagram', icon: <InstagramIcon />, url: 'https://www.instagram.com/gehan_liyanage' },
+    { name: 'YouTube', icon: <YoutubeIcon />, url: 'https://www.youtube.com/@CloudGen0815' },
 ];
 
 export const GALLERY_IMAGES: string[] = [
-    'https://i.imgur.com/8z3A33f.jpeg',
-    'https://i.imgur.com/uR25lwy.jpeg',
-    'https://i.imgur.com/O44hL8x.png',
-    'https://i.imgur.com/8pP45gC.jpeg',
-    'https://i.imgur.com/5u8a5iF.jpeg'
+    '/images/img7.jpg',
+    '/images/img2.jpg',
+    '/images/img3.jpg',
+    '/images/img4.jpg',
+    '/images/img6.jpg'
 ];
 
 export const ARTICLES_LIST_DATA: ArticleListItem[] = [
     {
-        date: 'March 21, 2024',
-        title: 'CI/CD Pipeline for Web App Deployment with Docker, Azure DevOps, and Azure Container Registry',
-        description: 'Are you looking to deploy your Projects to Azure? With Azure DevOps, you can automate your app\'s build and deployment processes.',
-        url: '#',
+        date: 'Octomber 26, 2025',
+        title: 'Understanding Kubernetes Control Plane: A Clear Guide for Beginners',
+        description: 'A beginner-friendly guide to understanding the Kubernetes Control Plane, explaining its components, functions, and how it manages cluster operations effectively.',
+        url: 'https://medium.com/@gehanliyanage/understanding-kubernetes-control-plane-a-clear-guide-for-beginners-457b535ed1ed',
     },
     {
-        date: 'November 23, 2024',
-        title: 'Employee Management System with Docker, Nginx and GitHub Actions',
-        description: 'Build a scalable Employee Management System using the MERN stack with Docker for containerization and GitHub Actions for CI/CD automation.',
-        url: '#',
+        date: 'Octomber 18, 2024',
+        title: 'Exploring Microsoft: Empowering People and Organizations with Technology',
+        description: 'An insightful exploration of how Microsoft empowers people and organizations worldwide through innovation, cloud technology, and digital transformation.',
+        url: 'https://medium.com/@gehanliyanage/exploring-microsoft-empowering-people-and-organizations-with-technology-16aedd64799f',
     },
     {
-        date: 'October 21, 2024',
-        title: 'Step-by-Step Guide: Deploying NGINX Web Server with SSL on AWS EC2',
-        description: 'This guide will walk you through a complete setup process, from configuring a Linux environment on your local machine to launching a secure web server.',
-        url: '#',
+        date: 'July 24, 2024',
+        title: 'Backup and Restore the SQL Database (Using Ubuntu)',
+        description: 'A practical guide to backing up and restoring SQL databases on Ubuntu, ensuring data safety, reliability, and seamless recovery processes.',
+        url: 'https://medium.com/@gehanliyanage/backup-and-restore-the-sql-database-using-ubuntu-8d5aef32db71',
     },
 ];
 
 export const EDUCATION_DATA: Education[] = [
     {
-        icon: <BriefcaseIcon />,
+        icon: <img src="/images/uwu.jpg" alt="Uva Wellassa University logo" className="h-10 w-auto" />,
         institution: 'Uva Wellassa University of Sri Lanka',
-        degree: 'Bachelor of Information and Communication Technology Honours',
-        period: '2021 - Present',
+        degree: 'BSc.(Hons) in Industrial Information Technology',
+        period: '2023 - Present',
     },
     {
-        icon: <BriefcaseIcon />,
+        icon: <img src="/images/aquinas.png" alt="Aquinas College logo" className="h-10 w-auto" />,
         institution: 'Aquinas College of Higher Education',
         degree: 'Diploma in English Language & Literature',
-        period: '2020 - 2022',
+        period: '2018 - 2023',
     },
     {
-        icon: <BriefcaseIcon />,
-        institution: 'Ananda Sastralaya Mathugama',
+        icon: <img src="/images/scl.png" alt="Nalanda College logo" className="h-10 w-auto" />,
+        institution: 'Nalanda College, Colombo',
         degree: 'Advanced Level in Technology Stream',
-        period: '2012 - 2020',
+        period: '2018 - 2022',
     },
 ];
 
 export const ARTICLES_DATA: Article[] = [
     {
-        image: 'https://picsum.photos/seed/article1/400/300',
-        title: 'Mastering React Hooks in 10 Minutes',
-        description: 'A deep dive into the most commonly used React Hooks and how they can simplify your component logic.',
-        url: 'https://medium.com',
-        tags: ['React', 'JavaScript', 'WebDev'],
+        image: '/images/at1.png',
+        title: 'Understanding Kubernetes Control Plane: A Clear Guide for Beginners',
+        description: 'A beginner-friendly guide to understanding the Kubernetes Control Plane, explaining its components, functions, and how it manages cluster operations effectively.',
+        url: 'https://medium.com/@gehanliyanage/understanding-kubernetes-control-plane-a-clear-guide-for-beginners-457b535ed1ed',
+        tags: ['Kubernetes', 'Docker', 'Cloud Computing'],
     },
     {
-        image: 'https://picsum.photos/seed/article2/400/300',
-        title: 'The Ultimate Guide to Tailwind CSS',
-        description: 'Learn how to build beautiful, custom designs without ever leaving your HTML.',
-        url: 'https://medium.com',
-        tags: ['TailwindCSS', 'CSS', 'Frontend'],
+        image: '/images/at2.png',
+        title: 'Exploring Microsoft: Empowering People and Organizations with Technology',
+        description: 'An insightful exploration of how Microsoft empowers people and organizations worldwide through innovation, cloud technology, and digital transformation.',
+        url: 'https://medium.com/@gehanliyanage/exploring-microsoft-empowering-people-and-organizations-with-technology-16aedd64799f',
+        tags: ['Microsoft Azure', 'Cloud Services', 'AI & Innovation'],
     },
     {
-        image: 'https://picsum.photos/seed/article3/400/300',
-        title: 'Understanding TypeScript for Beginners',
-        description: 'A comprehensive introduction to TypeScript, covering types, interfaces, and modern features.',
-        url: 'https://medium.com',
-        tags: ['TypeScript', 'JavaScript', 'Beginners'],
+        image: '/images/at3.png',
+        title: 'Backup and Restore the SQL Database (Using Ubuntu)',
+        description: 'A practical guide to backing up and restoring SQL databases on Ubuntu, ensuring data safety, reliability, and seamless recovery processes.',
+        url: 'https://medium.com/@gehanliyanage/backup-and-restore-the-sql-database-using-ubuntu-8d5aef32db71',
+        tags: ['MySQL', 'Ubuntu', 'Database Administration'],
     }
 ];
 
 export const DETAILED_PROJECTS_DATA: DetailedProject[] = [
     {
-        image: 'https://picsum.photos/seed/project1/800/600',
-        title: 'Project One: E-commerce Site',
-        description: 'A full-featured e-commerce platform built with the MERN stack. Includes product catalog, shopping cart, user authentication, and a payment gateway integration for seamless transactions.',
-        tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
-        githubUrl: 'https://github.com',
-        liveUrl: '#',
+        image: '/images/project1.png',
+        title: 'Todo App with Full DevOps Pipeline',
+        description: 'Developed a full-stack Todo App using React and Flask, emphasizing DevOps practices with Docker, CI/CD automation via GitHub Actions, and deployment to Azure Kubernetes Service (AKS). Gained hands-on experience in container orchestration, load balancing, and cloud-native automation.',
+        tags: ['React', 'Docker', 'Kubernetes', 'Azure Kubernetes Service (AKS)', 'Nginx'],
+        githubUrl: 'https://github.com/GehanLiyanage2002/TodoApp',
+        
     },
-    {
-        image: 'https://picsum.photos/seed/project2/800/600',
-        title: 'Project Two: Blog Platform',
-        description: 'A responsive and modern blogging platform with a markdown editor, comments, and social sharing features. Built using Next.js for optimal performance and SEO.',
-        tags: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
-        githubUrl: 'https://github.com',
-    },
-    {
-        image: 'https://picsum.photos/seed/project3/800/600',
-        title: 'Project Three: Data Visualization Dashboard',
-        description: 'An interactive dashboard for visualizing complex datasets. Features dynamic charts, graphs, and filters, created with D3.js and React to provide insightful data analysis.',
-        tags: ['React', 'D3.js', 'Firebase', 'Data Viz'],
-        githubUrl: 'https://github.com',
-        liveUrl: '#',
-    },
+    // {
+    //     image: 'https://picsum.photos/seed/project2/800/600',
+    //     title: 'Project Two: Blog Platform',
+    //     description: 'A responsive and modern blogging platform with a markdown editor, comments, and social sharing features. Built using Next.js for optimal performance and SEO.',
+    //     tags: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
+    //     githubUrl: 'https://github.com',
+    // },
+    // {
+    //     image: 'https://picsum.photos/seed/project3/800/600',
+    //     title: 'Project Three: Data Visualization Dashboard',
+    //     description: 'An interactive dashboard for visualizing complex datasets. Features dynamic charts, graphs, and filters, created with D3.js and React to provide insightful data analysis.',
+    //     tags: ['React', 'D3.js', 'Firebase', 'Data Viz'],
+    //     githubUrl: 'https://github.com',
+    //     liveUrl: '#',
+    // },
 ];
 
 export const CONTACT_INFO: ContactInfo[] = [

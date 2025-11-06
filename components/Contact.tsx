@@ -37,8 +37,7 @@ const Contact: React.FC = () => {
              <div className="w-full max-w-3xl mx-auto mb-12">
                 <h1 className="text-4xl lg:text-5xl font-bold text-text-primary dark:text-slate-50">Contact</h1>
                 <p className="text-text-secondary dark:text-slate-400 mt-4">
-                    I'm currently available for freelance work and open to discussing new projects.
-                    Feel free to reach out through any of the platforms below. Let's create something amazing together!
+                    Open to DevOps collaborations, cloud projects, and innovative tech ideas, reach out and let’s automate the future.
                 </p>
             </div>
 

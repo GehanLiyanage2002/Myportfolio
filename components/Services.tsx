@@ -9,17 +9,19 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => (
         rel="noopener noreferrer"
         className="block bg-surface dark:bg-slate-800 rounded-2xl shadow-lg overflow-hidden group transition-transform duration-300 hover:-translate-y-2 border border-border-color dark:border-violet-800"
     >
-        <div className="overflow-hidden">
-             <img src={article.image} alt={article.title} className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110" />
-        </div>
-        <div className="p-6">
-            <div className="flex flex-wrap gap-2 mb-3">
-                {article.tags.map(tag => (
-                    <span key={tag} className="text-xs font-semibold bg-border-color dark:bg-slate-700 text-text-secondary dark:text-slate-300 px-2 py-1 rounded-full">{tag}</span>
-                ))}
+        <div className="flex flex-col md:flex-row">
+            <div className="md:w-1/3 lg:w-1/4 flex-shrink-0 overflow-hidden">
+                 <img src={article.image} alt={article.title} className="w-full h-48 md:h-full object-cover transition-transform duration-300 group-hover:scale-110" />
             </div>
-            <h3 className="text-xl font-semibold text-text-primary dark:text-slate-50 mb-2 group-hover:text-primary transition-colors">{article.title}</h3>
-            <p className="text-text-secondary dark:text-slate-400 text-sm">{article.description}</p>
+            <div className="p-6 flex flex-col justify-center">
+                <div className="flex flex-wrap gap-2 mb-3">
+                    {article.tags.map(tag => (
+                        <span key={tag} className="text-xs font-semibold bg-border-color dark:bg-slate-700 text-text-secondary dark:text-slate-300 px-2 py-1 rounded-full">{tag}</span>
+                    ))}
+                </div>
+                <h3 className="text-xl font-semibold text-text-primary dark:text-slate-50 mb-2 group-hover:text-primary transition-colors">{article.title}</h3>
+                <p className="text-text-secondary dark:text-slate-400 text-sm">{article.description}</p>
+            </div>
         </div>
     </a>
 );
@@ -58,10 +60,10 @@ const Articles: React.FC = () => {
             className={`min-h-[calc(100vh-10rem)] py-10 transition-opacity duration-1000 ease-out transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         >
             <div className="text-left mb-12">
-                <h1 className="text-4xl lg:text-5xl font-bold text-text-primary dark:text-slate-50">Articles</h1>
-                <p className="text-text-secondary dark:text-slate-400 mt-2">My recent writings and publications.</p>
+                <h1 className="text-4xl lg:text-5xl font-bold text-text-primary dark:text-slate-50">Tech Stories</h1>
+                <p className="text-text-secondary dark:text-slate-400 mt-2">Explore my latest articles on DevOps, cloud technologies, and modern software development.</p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="space-y-8">
                 {ARTICLES_DATA.map((article, index) => (
                     <ArticleCard key={index} article={article} />
                 ))}

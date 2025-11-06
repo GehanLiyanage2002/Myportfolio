@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection, theme,
           onClick={() => handleNavClick('About')}
         >
           <img
-            src="https://i.imgur.com/O44hL8x.png"
+            src="/images/main.png"
             alt="Profile"
             className="rounded-full w-10 h-10 border-2 border-primary"
           />

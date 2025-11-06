@@ -62,19 +62,19 @@ const Home: React.FC = () => {
             {/* Top Intro Section */}
             <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
                 <img
-                    src="https://i.imgur.com/O44hL8x.png"
+                    src="/images/main.png"
                     alt="Abishek Haththakage"
                     className="rounded-full w-32 h-32 md:w-40 md:h-40 shadow-lg border-2 border-border-color dark:border-violet-800 flex-shrink-0"
                 />
                 <div className="text-center md:text-left">
                     <h1 className="text-4xl md:text-5xl font-bold text-text-primary dark:text-slate-50">
-                        Abishek Haththakage
+                        Gehan Liyanage
                     </h1>
                     <p className="text-text-secondary dark:text-slate-400 mt-2 text-lg">
-                        DevOps Enthusiastic | Gold MLSA | BICT Undergraduate
+                        DevOps Enthusiast | Nalandian | CS Undergraduate
                     </p>
                     <p className="text-text-secondary dark:text-slate-400 mt-4 max-w-2xl">
-                        Hi, I'm Abishek, a passionate DevOps-focused undergraduate with a keen interest in building scalable, efficient systems. I'm dedicated to automating processes, improving workflows, and leveraging cloud technologies to drive operational excellence. As someone who loves learning and applying best practices, I've worked on several projects that incorporate CI/CD pipelines, containerization, and cloud-based solutions. I'm always looking to connect with like-minded professionals and contribute to the development of efficient, reliable, and automated systems.
+                        Hi,I’m Gehan Chamikara Liyanage, a DevOps Enthusiast and Computer Science undergraduate at Uva Wellassa University of Sri Lanka, pursuing a B.Sc. (Hons) in Industrial Information Technology. I’m passionate about DevOps, Kubernetes, cloud technologies, and automation, with a focus on building scalable and efficient systems. As the Webmaster of the Microsoft Student Club, a tech writer on Medium, and an active participant in the Microsoft Learn Student Ambassador (MSA) program, I continuously expand my technical and leadership skills through innovation, learning, and community collaboration.
                     </p>
                     <div className="flex items-center justify-center md:justify-start gap-4 mt-6">
                         {SOCIAL_LINKS.map((link: SocialLink) => (
@@ -138,7 +138,7 @@ const Home: React.FC = () => {
                                 </div>
                             </div>
                             <a 
-                                href="#" 
+                                href="/images/Cv.pdf" 
                                 className="w-full inline-flex items-center justify-center px-6 py-4 bg-surface dark:bg-slate-800 border border-border-color dark:border-violet-800 text-text-primary dark:text-slate-50 font-semibold rounded-lg transition-colors duration-200 hover:bg-border-color dark:hover:bg-slate-700"
                             >
                                 Download Resume
