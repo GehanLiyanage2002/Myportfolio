@@ -64,7 +64,7 @@ const Home: React.FC = () => {
             {/* Top Intro Section */}
             <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
                 <img
-                    src="/images/main.png"
+                    src={mainImage}
                     alt="Gehan Liyanage"
                     className="rounded-full w-32 h-32 md:w-40 md:h-40 shadow-lg border-2 border-border-color dark:border-violet-800 flex-shrink-0"
                 />
