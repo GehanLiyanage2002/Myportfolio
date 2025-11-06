@@ -1,6 +1,22 @@
 import React from 'react';
 import type { NavLink, SocialLink, Article, ArticleListItem, Education, DetailedProject, ContactInfo } from './types';
-
+import main from './images/main.png';
+import cv from './images/Cv.pdf';
+import aquinasLogo from './images/aquinas.png';
+import sclLogo from './images/scl.png';
+import uwuLogo from './images/uwu.jpg';
+import at1 from './images/at1.png';
+import at2 from './images/at2.png';
+import at3 from './images/at3.png';
+import project1 from './images/project1.png';
+import project2 from './images/pj1.png';
+import img1 from './images/img1.jpg';
+import img2 from './images/img2.jpg';
+import img3 from './images/img3.jpg';
+import img4 from './images/img4.jpg';
+import img5 from './images/img5.jpg';
+import img6 from './images/img6.jpg';
+import img7 from './images/img7.jpg';
 // Generic Icon component props
 interface IconProps {
   className?: string;
@@ -107,11 +123,12 @@ export const CONTACT_PAGE_LINKS: SocialLink[] = [
 ];
 
 export const GALLERY_IMAGES: string[] = [
-    '/images/img7.jpg',
-    '/images/img2.jpg',
-    '/images/img3.jpg',
-    '/images/img4.jpg',
-    '/images/img6.jpg'
+    img7,
+    img1,
+    img2,
+    img3,
+    img4,
+    img6,
 ];
 
 export const ARTICLES_LIST_DATA: ArticleListItem[] = [
@@ -137,19 +154,19 @@ export const ARTICLES_LIST_DATA: ArticleListItem[] = [
 
 export const EDUCATION_DATA: Education[] = [
     {
-        icon: <img src="/images/uwu.jpg" alt="Uva Wellassa University logo" className="h-10 w-auto" />,
+        icon: <img src={uwuLogo} alt="Uva Wellassa University logo" className="h-10 w-auto" />,
         institution: 'Uva Wellassa University of Sri Lanka',
         degree: 'BSc.(Hons) in Industrial Information Technology',
         period: '2023 - Present',
     },
     {
-        icon: <img src="/images/aquinas.png" alt="Aquinas College logo" className="h-10 w-auto" />,
+        icon: <img src={aquinasLogo} alt="Aquinas College logo" className="h-10 w-auto" />,
         institution: 'Aquinas College of Higher Education',
         degree: 'Diploma in English Language & Literature',
         period: '2018 - 2023',
     },
     {
-        icon: <img src="/images/scl.png" alt="Nalanda College logo" className="h-10 w-auto" />,
+        icon: <img src={sclLogo} alt="Nalanda College logo" className="h-10 w-auto" />,
         institution: 'Nalanda College, Colombo',
         degree: 'Advanced Level in Technology Stream',
         period: '2018 - 2022',
@@ -158,21 +175,21 @@ export const EDUCATION_DATA: Education[] = [
 
 export const ARTICLES_DATA: Article[] = [
     {
-        image: '/images/at1.png',
+        image: at1,
         title: 'Understanding Kubernetes Control Plane: A Clear Guide for Beginners',
         description: 'A beginner-friendly guide to understanding the Kubernetes Control Plane, explaining its components, functions, and how it manages cluster operations effectively.',
         url: 'https://medium.com/@gehanliyanage/understanding-kubernetes-control-plane-a-clear-guide-for-beginners-457b535ed1ed',
         tags: ['Kubernetes', 'Docker', 'Cloud Computing'],
     },
     {
-        image: '/images/at2.png',
+        image: at2,
         title: 'Exploring Microsoft: Empowering People and Organizations with Technology',
         description: 'An insightful exploration of how Microsoft empowers people and organizations worldwide through innovation, cloud technology, and digital transformation.',
         url: 'https://medium.com/@gehanliyanage/exploring-microsoft-empowering-people-and-organizations-with-technology-16aedd64799f',
         tags: ['Microsoft Azure', 'Cloud Services', 'AI & Innovation'],
     },
     {
-        image: '/images/at3.png',
+        image: at3,
         title: 'Backup and Restore the SQL Database (Using Ubuntu)',
         description: 'A practical guide to backing up and restoring SQL databases on Ubuntu, ensuring data safety, reliability, and seamless recovery processes.',
         url: 'https://medium.com/@gehanliyanage/backup-and-restore-the-sql-database-using-ubuntu-8d5aef32db71',
@@ -182,7 +199,7 @@ export const ARTICLES_DATA: Article[] = [
 
 export const DETAILED_PROJECTS_DATA: DetailedProject[] = [
     {
-        image: '/images/project1.png',
+        image: project1,
         title: 'Todo App with Full DevOps Pipeline',
         description: 'Developed a full-stack Todo App using React and Flask, emphasizing DevOps practices with Docker, CI/CD automation via GitHub Actions, and deployment to Azure Kubernetes Service (AKS). Gained hands-on experience in container orchestration, load balancing, and cloud-native automation.',
         tags: ['React', 'Docker', 'Kubernetes', 'Azure Kubernetes Service (AKS)', 'Nginx'],
@@ -207,5 +224,5 @@ export const DETAILED_PROJECTS_DATA: DetailedProject[] = [
 ];
 
 export const CONTACT_INFO: ContactInfo[] = [
-    { icon: <MailIcon />, label: 'Email', value: 'aloka.abishek9@gmail.com', href: 'mailto:aloka.abishek9@gmail.com' },
+    { icon: <MailIcon />, label: 'Email', value: 'gahenliyanage@gmail.com', href: 'mailto:gahenliyanage@gmail.com' },
 ];

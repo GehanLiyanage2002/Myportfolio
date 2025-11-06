@@ -1,6 +1,7 @@
 import React from 'react';
 import { NAV_LINKS, MoonIcon, SunIcon } from '../constants';
 import type { NavLink } from '../types';
+import mainImage from '../images/main.png';
 
 interface HeaderProps {
   activeSection: string;
@@ -23,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection, theme,
           onClick={() => handleNavClick('About')}
         >
           <img
-            src="/images/main.png"
+            src={mainImage}
             alt="Profile"
             className="rounded-full w-10 h-10 border-2 border-primary"
           />

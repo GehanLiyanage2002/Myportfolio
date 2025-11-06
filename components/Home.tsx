@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { SOCIAL_LINKS, GALLERY_IMAGES, ARTICLES_LIST_DATA, EDUCATION_DATA, DownloadIcon, BriefcaseIcon } from '../constants';
 import type { SocialLink, ArticleListItem, Education } from '../types';
+import mainImage from '../images/main.png';
+import cv from '../images/Cv.pdf';
 
 const ArticleItem: React.FC<{ item: ArticleListItem }> = ({ item }) => (
     <div className="py-4 first:pt-0 last:pb-0">
@@ -63,7 +65,7 @@ const Home: React.FC = () => {
             <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
                 <img
                     src="/images/main.png"
-                    alt="Abishek Haththakage"
+                    alt="Gehan Liyanage"
                     className="rounded-full w-32 h-32 md:w-40 md:h-40 shadow-lg border-2 border-border-color dark:border-violet-800 flex-shrink-0"
                 />
                 <div className="text-center md:text-left">
@@ -138,7 +140,7 @@ const Home: React.FC = () => {
                                 </div>
                             </div>
                             <a 
-                                href="/images/Cv.pdf" 
+                                href={cv}
                                 className="w-full inline-flex items-center justify-center px-6 py-4 bg-surface dark:bg-slate-800 border border-border-color dark:border-violet-800 text-text-primary dark:text-slate-50 font-semibold rounded-lg transition-colors duration-200 hover:bg-border-color dark:hover:bg-slate-700"
                             >
                                 Download Resume
