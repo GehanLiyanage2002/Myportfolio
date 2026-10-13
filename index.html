@@ -1,55 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="png" href="GehanLogo.png" />
+    <link rel="icon" type="image/png" href="/GehanLogo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gehan Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              'primary': '#a78bfa',      // "sky purple" (violet-400)
-              'background': '#ffffff',    // white
-              'surface': '#ffffff',      // white
-              'text-primary': '#111827',  // almost black (gray-900)
-              'text-secondary': '#6b7280', // gray-500
-              'border-color': '#ddd6fe', // "light purple" (violet-200)
-            },
-            fontFamily: {
-              sans: ['Poppins', 'sans-serif'],
-            },
-            animation: {
-              'infinite-scroll': 'infinite-scroll 40s linear infinite',
-            },
-            keyframes: {
-              'infinite-scroll': {
-                from: { transform: 'translateX(0)' },
-                to: { transform: 'translateX(-50%)' },
-              }
-            }
-          }
-        }
-      }
-    </script>
+    
+    <title>Gehan Liyanage | DevOps Enthusiast & Cloud Engineer</title>
+    <meta name="description" content="Portfolio of Gehan Liyanage - DevOps Enthusiast, Computer Science undergraduate at Uva Wellassa University, Kubernetes & Cloud explorer, and Tech Writer." />
+    <meta name="keywords" content="Gehan Liyanage, DevOps, Kubernetes, Cloud, Azure, Docker, CI/CD, Portfolio, Software Engineer" />
+    <meta name="author" content="Gehan Liyanage" />
+    
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gehan Liyanage | DevOps & Cloud Engineer" />
+    <meta property="og:description" content="DevOps, Kubernetes, CI/CD automation, and cloud technologies portfolio." />
+    <meta property="og:image" content="/GehanLogo.png" />
+
+    <!-- Google Fonts: Poppins & JetBrains Mono for Code / Terminal -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
-  <body class="font-sans">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="font-sans antialiased bg-slate-50 text-slate-900 dark:bg-[#0b0f19] dark:text-slate-100 transition-colors duration-300 selection:bg-violet-500 selection:text-white">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
   </body>
